@@ -1,4 +1,3 @@
-###This is the Home Page 
 
 ![business-site](https://user-images.githubusercontent.com/67522406/102297456-54b7fe80-3f75-11eb-8dc4-5c6f5478dd22.png)
 
