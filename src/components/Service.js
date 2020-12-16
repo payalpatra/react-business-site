@@ -14,7 +14,12 @@ function Service() {
             <div className="row gy-4">
               {serviceData.map((val, index) => {
                 return (
-                  <Card key={index} imgsrc={val.imgsrc} title={val.title} />
+                  <Card
+                    key={index}
+                    imgsrc={val.imgsrc}
+                    title={val.title}
+                    info={val.info}
+                  />
                 );
               })}
             </div>

@@ -16,8 +16,8 @@ function Common(props) {
                     <strong className="brand-name"> PP_Technical</strong>
                   </h1>
                   <h2 className="my-3">
-                    We are the team of talented developer making responsive
-                    websites
+                    We are the team of talented developers making responsive
+                    websites.
                   </h2>
                   <div className="mt-3">
                     <NavLink to={props.visit} className="btn btn-get-started">
