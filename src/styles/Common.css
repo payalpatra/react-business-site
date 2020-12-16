@@ -1,0 +1,170 @@
+.btn {
+  border-radius: 10px;
+}
+
+.brand-name {
+  color: teal !important ;
+}
+
+.my-3 {
+  margin-top: 50px;
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: teal;
+}
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+.btn-get-started {
+  font-size: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: rgb(14, 95, 95);
+  border: 2px solid rgb(107, 136, 136);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#header .btn-get-started:hover {
+  background-color: teal;
+  color: white;
+  font-weight: 500;
+}
+
+.header-image {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  height: 45rem;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 737px) {
+  #header h1 {
+    font-size: 30px;
+  }
+  #header h2 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 823px) {
+  /* For mobile phones: */
+  #header h1 {
+    font-size: 18px;
+    margin-bottom: 0%;
+  }
+  #header h2 {
+    font-size: 16.5px;
+    margin-bottom: 0%;
+  }
+  #header .animated {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #header {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+  #header {
+    height: 20rem;
+  }
+  #header h1 {
+    font-size: 18px;
+    margin-bottom: 0%;
+  }
+  #header h2 {
+    font-size: 16px;
+    margin-bottom: 0%;
+  }
+  #header .animated {
+    height: 14rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 832px) {
+  #header {
+    height: 25rem;
+  }
+  #header .animated {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1034px) {
+  #header {
+    height: 44rem;
+  }
+  #header .animated {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+  #header {
+    height: 30rem;
+  }
+  #header .animated {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+  #header {
+    height: 25rem;
+  }
+  #header h1 {
+    font-size: 22px;
+    margin-bottom: 0%;
+  }
+  #header h2 {
+    font-size: 16px;
+    margin-bottom: 0%;
+  }
+  #header .animated {
+    height: 15rem;
+  }
+}
